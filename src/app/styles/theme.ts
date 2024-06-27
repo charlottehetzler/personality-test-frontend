@@ -2,14 +2,20 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
-    primary: {
-      main: "#a9927d", // A shade of beige/brown
+    background: {
+      default: "#f8f8f8", // Off-white background
     },
-    secondary: {
-      main: "#8a584b", // A darker shade of brown
+    primary: {
+      main: "#a9927d", // Beige color for primary
     },
     text: {
-      primary: "#355e3b", // Dark green for text
+      primary: "#004d00", // Black text color
+    },
+  },
+  typography: {
+    h4: {
+      fontSize: "2rem",
+      fontWeight: "bold",
     },
   },
 });
